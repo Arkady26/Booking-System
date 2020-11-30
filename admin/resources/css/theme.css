@@ -1,0 +1,191 @@
+body{
+	background:#f7f6f0 url(../img/bg.jpg) repeat-x top;
+	color: #202020;
+}
+a, a:visited{
+	color:#a43708;
+}
+input{
+	border:1px solid #e8e7e1;
+}
+select{
+	border:1px solid #e8e7e1;
+}
+#header h2{
+	color:#FFF;
+}
+#content{
+	background:#FFF;
+}
+#sidebar{
+	background:#FFF;
+}
+#sidebar h3{
+	background:#f7f6f0;
+	border-bottom:1px solid #e8e7e1;
+}
+#topmenu a,#topmenu a:visited{
+	color:#f7f6f0;
+	background:#bd3f09;
+}
+#topmenu a:hover{
+	color: #FFF;
+}
+#topmenu .current a, #topmenu .current a:hover, #topmenu .current a:visited{
+	color:#993400;
+	background: #FFF url(../img/bg_menu_red.jpg) repeat-x top;
+	border-left: #FFF 1px solid;
+	border-right: #FFF 1px solid;
+}
+#top-panel{
+	background:#FFF;
+}
+table{
+	background:none;
+}
+td, th{
+	font-size:12px;
+	border:1px solid #e8e7e1;
+} 
+thead{
+	background:#f7f6f0;
+}
+#styleswitcher{
+	background:#FFFFFF;
+}
+#footer{
+	background:#FFF;
+}
+#box{
+	border:1px solid #e8e7e1;
+}
+#box h3{
+	background:#f7f6f0;
+	border-bottom:1px solid #e8e7e1;
+	color:#a43708;
+}
+/***************
+	  Forms
+***************/
+form#form fieldset {
+	border:1px solid #e8e7e1;
+}
+form#form legend {
+	border:1px solid #e8e7e1;
+	background:#fff url(../img/form_red.gif) repeat-x center left;
+	color:#a43708;
+}
+form#form input {
+	border:1px solid #e8e7e1;
+	background:#fff url(../img/form_red.gif) repeat-x top left;
+}
+form#form textarea {
+	border:1px solid #e8e7e1;
+	background:#fff url(../img/form_red.gif) repeat-x bottom left;
+}
+form#form option {
+	background:#FFF;
+}
+form#form optgroup {
+	background:#e8e7e1;
+}
+form#form optgroup option {
+
+}
+form#form #button1, form#form #button2 {
+	color:#c00;
+}
+form#form #button1:hover, form#form #button2:hover {
+	color:#000;
+}
+/***************
+	Home
+***************/
+#infobox{
+	border:1px solid #e8e7e1;
+}
+#infobox h3{
+	background:#f7f6f0;
+	border-bottom:1px solid #e8e7e1;
+	color:#a43708;
+}
+#rightnow {
+	border:1px solid #e8e7e1;
+}
+#rightnow .reallynow {
+	background:#f7f6f0;
+	color:#a43708;
+}
+#rightnow h3{
+	background:#f7f6f0;
+	border-bottom:1px solid #e8e7e1;
+}
+
+.button
+{
+	font-size:12px;
+	text-align:center;
+	background-color:#A43708;
+	border:solid 1px inset;
+	color:#FFF;
+	font-weight:bold;
+	text-decoration:none;
+	cursor:pointer;
+	-moz-border-radius:6px 6px 6px 6px;
+	border-radius:6px 6px 6px 6px;
+	height:30px;
+	width:100px;
+	line-height:30px;
+}
+
+.button a{ color:#ffffff;}
+.button:hover{
+	color:#fff;
+	background-color:#bd3f09;
+	}
+	
+/*------------------------------------------------------ pagging css Start--------------------------------------------*/
+#paging{
+	height:50px;
+	font-size:14px;
+	line-height:50px;
+	text-align:center;
+	width:450px;
+	margin:0px auto;
+	cursor:pointer;
+	}	
+	
+#paging a{
+	text-decoration:none;
+}
+
+#pagingselect{
+	padding:2px 5px;
+	border:1px solid #E8E7E1;
+	background-color:#ffffff;
+	-moz-border-radius:6px;
+	border-radius:6px 6px 6px 6px;
+	margin:2px;
+	}
+	
+#pagingdeselect{
+	padding:2px 5px;
+	border:2px solid #E8E7E1;
+	-moz-border-radius:6px;
+	border-radius:6px 6px 6px 6px;
+	background-color:#E8E7E1;
+	margin:2px;
+	cursor:default;
+}
+
+#pagingdisable{
+	padding:2px 5px;
+	border:1px solid #CCC;
+	-moz-border-radius:6px;
+	border-radius:6px 6px 6px 6px;
+	margin:2px;
+	cursor:default;
+	color:#CCC;
+}
+/*------------------------------------------------------ pagging css End--------------------------------------------*/
+	
